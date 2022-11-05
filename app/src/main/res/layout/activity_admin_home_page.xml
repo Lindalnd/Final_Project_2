@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Admin.AdminHomePage">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logo_toko" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hind_regular"
+        android:paddingTop="12dp"
+        android:text="@string/selamat_datang_admin"
+        android:textColor="@color/biru"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addstock"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="90dp"
+        android:textSize="17sp"
+        android:layout_marginRight="61dp"
+        android:background="@drawable/input_txt"
+        android:text="@string/tambah_produk" />
+
+    <Button
+        android:id="@+id/addstaff"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="61dp"
+        android:background="@drawable/input_txt"
+        android:text="@string/tambah_staf" />
+
+</LinearLayout>
